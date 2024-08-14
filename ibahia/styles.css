@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  color: #fff;
+}
+.buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+  gap: 20px;
+}
+.logos {
+  display: flex;
+  gap: 10px;
+}
+form {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+}
+form input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+form img {
+  width: 30px;
+  height: 20px;
+  margin-top: 2px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+nav ul li {
+  list-style: none;
+  font-family: "Reddit Sans";
+  font-size: 16px;
+  color: #181818;
+}
+
+.faixa {
+  background-color: #e31837;
+  padding: 10px;
+  margin: 20px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.faixa1 {
+  display: flex;
+  gap: 10px;
+  margin-left: 110px;
+}
+.faixa h1 {
+  color: #fff;
+  font-size: 42px;
+  font-family: "Reddit Sans";
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.logos-footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+footer {
+  background-color: #f7f7f7;
+  font-family: "Reddit Sans";
+}
+footer ul {
+  font-size: 16px;
+}
+footer li {
+  list-style: none;
+  margin: 2px;
+  color: #181818;
+  margin-top: 5px;
+}
+.titulo{
+  margin-top: -50px;
+}
+.titulo1{
+  margin-top: -78px;
+
+}
+.copy {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+}
+
+.copy p {
+  font-size: 12px;
+  font-family: "Reddit Sans";
+}
