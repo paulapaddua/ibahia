@@ -111,3 +111,14 @@ section{
 .link ul li::before{
   color: #E31837;
 }
+.publicidade{
+  background-color:#EBEBEB ;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  margin: 0 80vh;
+  margin-top: 25px;
+}
+.publicidade span{
+  font-size: 10px;
+}
