@@ -96,3 +96,18 @@ section{
   color: #181818;
   margin-top: 20px;
 }
+.veja{
+  margin-top: 20px;
+}
+
+.link{
+  margin-top: 20px;
+}
+.link a{
+  color: #181818;
+  font-size: 20px;
+  
+}
+.link ul li::before{
+  color: #E31837;
+}
