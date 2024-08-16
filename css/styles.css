@@ -4,134 +4,144 @@
   font-family: "Reddit Sans";
 }
 
-
-.cinza{
- 
-  background-color:#EBEBEB;
+.cinza {
+  background-color: #ebebeb;
   display: flex;
   justify-content: center;
   padding: 100px;
   margin: 0 40vh;
 }
 
-.cinza p{
+.cinza p {
   font-size: 10px;
   color: #161616;
 }
 
-.novela{
-  color:#E31837;
+.novela {
+  color: #e31837;
   font-size: 20px;
   font-weight: bold;
   margin: 20px;
   padding: 0 57vh;
 }
-section{
+section {
   margin-top: 60px;
   padding: 0 60vh;
 }
-.titulo{
+.titulo {
   display: flex;
   flex-direction: column;
 }
-.titulo h1{
+.titulo h1 {
   font-size: 40px;
   color: #000;
   font-weight: bold;
 }
-.titulo p{
+.titulo p {
   font-size: 20px;
   color: #181818;
   margin-top: 10px;
 }
-.figurinha{
+.figurinha {
   display: flex;
   margin-top: 20px;
 }
-.figurinha p{
+.figurinha p {
   margin: 12px;
   color: #181818;
   font-size: 15px;
 }
-.figurinha span{
+.figurinha span {
   font-weight: bold;
 }
-.ouca{
+.ouca {
   display: flex;
   gap: 10px;
   margin-top: 15px;
 }
 
-.play{
+.play {
   display: flex;
-  border: 1px solid #E31837;
+  border: 1px solid #e31837;
   padding: 2px 20px;
   border-radius: 40px;
   gap: 2px;
 }
-.play p{
+.play p {
   color: #161616;
   font-weight: bold;
   font-size: 15px;
   margin: 10px;
 }
-.mania{
+.mania {
   margin-top: 30px;
   font-size: 19px;
 }
 .mania a {
-  color: #E31837;
+  color: #e31837;
   font-weight: bold;
 }
-.nicolas{
+.nicolas {
   margin-top: 20px;
 }
-.nicolas figcaption{
+.nicolas figcaption {
   font-size: 15px;
   color: #181818;
 }
 
-.nicolas p{
+.nicolas p {
   font-size: 19px;
   color: #181818;
   margin-top: 20px;
 }
-.veja{
+.veja {
   margin-top: 20px;
 }
 
-.link{
+.link {
   margin-top: 20px;
 }
-.link a{
+.link a {
   color: #181818;
   font-size: 20px;
-  
 }
-.link ul li::before{
-  color: #E31837;
+.link ul li::before {
+  color: #e31837;
 }
-.publicidade{
-  background-color:#EBEBEB ;
+.publicidade {
+  background-color: #ebebeb;
   display: flex;
   justify-content: center;
   padding: 100px;
   margin: 0 80vh;
   margin-top: 25px;
 }
-.publicidade span{
+.publicidade span {
   font-size: 10px;
 }
 .news-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 10px;
 }
 
 .news-item {
   background-color: white;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
+  display: flex;
 }
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+  color: #e31837;
+}
+
+.news-item span {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px;
+}
+
