@@ -144,4 +144,7 @@ section {
   font-weight: normal;
   margin: 10px;
 }
-
+.titulo-mania{
+  margin-top: 60px;
+  padding: 0 60vh;
+}
