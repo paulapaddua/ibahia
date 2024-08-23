@@ -223,5 +223,43 @@ section {
   border-left: 4px solid #e31837;
   border-bottom: 1px solid #E7E7E7;
   padding: 20px;
-  
+}
+
+.container-autor{
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  padding: 5px;
+}
+.text-autor{
+  margin-top: 10px;
+}
+.text-autor span{
+  color: #e31837;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.text-autor p{
+  font-size: 15px;
+}
+.tags{
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.diversao{
+  display: flex;
+}
+.diversao-grid span{
+  color: #e31837;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.diversao-grid p{
+  margin-top: 10px;
+  color: #161616;
 }
