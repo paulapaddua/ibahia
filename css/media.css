@@ -1,0 +1,45 @@
+@media (max-width: 600px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}    
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logos{
+    display: none;
+}
+.novela{
+    padding: 0 10px;
+    font-size: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section{
+    padding: 0 10px;   
+}
+.cinza{
+    display: none;
+}
+.publicidade{
+}
+.news-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+}
