@@ -94,11 +94,6 @@ section {
   color: #181818;
 }
 
-.nicolas p {
-  font-size: 19px;
-  color: #181818;
-  margin-top: 20px;
-}
 .veja {
   margin-top: 20px;
 }
@@ -153,7 +148,7 @@ section {
 
 .news-item span {
   font-size: 15px;
-  font-weight: normal;
+  font-weight: bold;
   margin: 10px;
 }
 .titulo-mania {
@@ -266,4 +261,10 @@ section {
 .diversao-grid p {
   margin-top: 10px;
   color: #161616;
+}
+.titulo-diversao{
+  font-size: 22px;
+}
+.titulo-diversao span{
+  color: #e31837;
 }
