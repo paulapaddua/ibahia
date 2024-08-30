@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Reddit Sans";
+  box-sizing: border-box;
 }
 .paragrafo {
   font-size: 19px;
@@ -29,36 +30,44 @@
   margin: 20px;
   padding: 0 57vh;
 }
+
 section {
   margin-top: 60px;
   padding: 0 60vh;
 }
+
 .titulo {
   display: flex;
   flex-direction: column;
 }
+
 .titulo h1 {
   font-size: 40px;
   color: #000;
   font-weight: bold;
 }
+
 .titulo p {
   font-size: 20px;
   color: #181818;
   margin-top: 10px;
 }
+
 .figurinha {
   display: flex;
   margin-top: 20px;
 }
+
 .figurinha p {
   margin: 12px;
   color: #181818;
   font-size: 15px;
 }
+
 .figurinha span {
   font-weight: bold;
 }
+
 .ouca {
   display: flex;
   gap: 10px;
@@ -72,23 +81,28 @@ section {
   border-radius: 40px;
   gap: 2px;
 }
+
 .play p {
   color: #161616;
   font-weight: bold;
   font-size: 15px;
   margin: 10px;
 }
+
 .mania {
   margin-top: 30px;
   font-size: 19px;
 }
+
 .mania a {
   color: #e31837;
   font-weight: bold;
 }
+
 .nicolas {
   margin-top: 20px;
 }
+
 .nicolas figcaption {
   font-size: 15px;
   color: #181818;
@@ -101,13 +115,16 @@ section {
 .link {
   margin-top: 20px;
 }
+
 .link a {
   color: #181818;
   font-size: 20px;
 }
+
 .link ul li::before {
   color: #e31837;
 }
+
 .publicidade {
   background-color: #ebebeb;
   display: flex;
@@ -116,9 +133,11 @@ section {
   margin: 0 80vh;
   margin-top: 25px;
 }
+
 .publicidade span {
   font-size: 10px;
 }
+
 .news-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -151,19 +170,24 @@ section {
   font-weight: bold;
   margin: 10px;
 }
+
 .titulo-mania {
   margin-top: 60px;
   padding: 0 60vh;
 }
+
 .carrossel {
   background-color: #000;
   height: 87vh;
   width: 100%;
+  border: 2px solid red;
 }
+
 .principal-galeria {
   margin-top: 10px;
   padding: 0 60vh;
 }
+
 .principal-galeria figcaption {
   color: #ffff;
   margin-top: -20px;
@@ -171,19 +195,23 @@ section {
   justify-content: center;
   display: flex;
 }
+
 .carrossel-img {
   display: flex;
   justify-content: center;
 }
+
 .figures {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 19px;
 }
+
 .figures img {
   border-radius: 10px;
 }
+
 .carrossel-titulo {
   background-color: #000;
   display: flex;
@@ -196,23 +224,28 @@ section {
   justify-content: center;
   margin-top: 19px;
 }
+
 .aspas {
   display: flex;
   margin-top: 15px;
   gap: 20px;
 }
+
 .aspas img {
   margin-top: -50px;
 }
+
 .direita,
 .esquerda {
   position: relative;
   bottom: 300px;
   cursor: pointer;
 }
+
 .direita {
   left: 280px;
 }
+
 .esquerda {
   right: 490px;
 }
@@ -232,39 +265,48 @@ section {
   border-radius: 10px;
   padding: 5px;
 }
+
 .text-autor {
   margin-top: 10px;
 }
+
 .text-autor span {
   color: #e31837;
   font-weight: bold;
   margin-top: 10px;
   font-size: 12px;
 }
+
 .text-autor p {
   font-size: 15px;
 }
+
 .tags {
   display: flex;
   gap: 10px;
   margin-top: 15px;
 }
+
 .diversao {
   display: flex;
 }
+
 .diversao-grid span {
   color: #e31837;
   margin-top: 5px;
   font-weight: bold;
   font-size: 15px;
 }
+
 .diversao-grid p {
   margin-top: 10px;
   color: #161616;
 }
+
 .titulo-diversao{
   font-size: 22px;
 }
+
 .titulo-diversao span{
   color: #e31837;
 }
