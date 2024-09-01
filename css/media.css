@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .container-header {
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     padding: 0;
     margin-top: 10px;
   }
-  
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -20,27 +20,44 @@
     overflow: scroll;
     white-space: nowrap;
   }
-  
+
   .logos {
     display: none;
   }
-  
+
   .novela {
-    padding: 0 25px;
+    padding: 0 1px;
     font-size: 30px;
+    margin-top: 10px;
   }
-  
+
+  .titulo {
+    margin-top: -60px;
+  }
+  .titulo p {
+    font-size: 20px;
+  }
+
+  .faixa1 {
+    display: flex;
+    margin: 2px;
+  }
+
+  .play p {
+    margin-top: 10px;
+  }
+
   .buscar {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 10px;
   }
-  
+
   .buscar input {
     display: none;
   }
-  
+
   .buscar img {
     display: block;
     width: 60px;
@@ -48,41 +65,40 @@
     background-color: #ffff;
     border: none;
   }
-  
+
   main {
     display: flex;
     flex-direction: column;
-    gap: 10px;
   }
-  
+
   section {
     padding: 0 10px;
   }
-  
+
   .cinza {
     display: none;
   }
-  
+
   .nicolas-img {
     width: 100%;
     height: 100%;
   }
-  
+
   .news-grid {
     display: flex;
     flex-direction: column;
   }
-  
+
   .publicidade {
     display: flex;
-    margin: 0 20vh;
+    margin: 0 13vh;
     margin-top: 25px;
   }
-  
+
   .paragrafo {
     font-size: 20px;
   }
-  
+
   .carrossel {
     display: flex;
     flex-direction: column;
@@ -90,8 +106,8 @@
     height: 100%;
     width: 100%;
   }
-  
-  .carrossel-img{
+
+  .carrossel-img {
     display: flex;
     justify-content: center;
     overflow-x: auto;
@@ -99,12 +115,12 @@
     gap: 10px;
     align-items: center;
   }
-  
+
   figure img.img-4 {
     display: none;
   }
-  
-  .carrossel-titulo{
+
+  .carrossel-titulo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,49 +128,45 @@
     background-color: #000;
     font-size: 10px;
   }
-  
+
   .galeria-img {
     width: 100%;
   }
-  
+
   .direita {
     display: none;
   }
-  
+
   .esquerda {
     display: none;
   }
-  
+
   .titulo-mania {
     padding: 0 10px;
   }
-  
-  .titulo p {
-    font-size: 20px;
-  }
-  
+
   .mania {
     font-size: 20px;
   }
-  
+
   .principal-galeria {
     padding: 0 10px;
   }
-  
+
   .principal-galeria figcaption {
     margin-top: 0;
     font-size: 10px;
   }
-  
+
   .diversao {
     display: flex;
     flex-direction: column;
   }
-  
+
   .logo-ibahia {
     display: none;
   }
-  
+
   .container-footer {
     display: flex;
     flex-direction: column;
@@ -163,26 +175,43 @@
     padding: 10px 20px;
     align-items: flex-start;
   }
-  
+
   .logos-footer {
     margin: 15px 0;
   }
-  
+
   .list {
     margin-top: 10px;
     width: 100%;
   }
-  
+
   .title {
     display: block;
     color: black;
     font-family: "Reddit Sans";
   }
-  
+
+  .diversao {
+    display: grid;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .diversao-grid {
+    width: calc(50% -10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .diversao-respo {
+    display: flex;
+    flex-direction: column;
+  }
+
   footer li {
     display: none;
   }
-  
+
   .tituloF {
     display: flex;
     flex-direction: row;
@@ -191,27 +220,27 @@
     margin-top: 0px;
     width: 90%;
   }
-  
+
   .tituloF img {
     display: flex;
     width: 28px;
   }
-  
-  .titulo1{
+
+  .titulo1 {
     margin-top: 0px;
   }
-  
+
   .copy {
     display: flex;
     flex-direction: column;
     padding: 5px 20px;
-  
+
     p {
       width: 70%;
       margin: 15px 0px;
     }
   }
-  
+
   .tarja {
     display: flex;
     margin-bottom: 20px;
