@@ -230,6 +230,7 @@ section {
   display: flex;
   margin-top: 15px;
   gap: 20px;
+  font-size: 25px;
 }
 
 .aspas img {
@@ -256,6 +257,10 @@ section {
   border-left: 4px solid #e31837;
   border-bottom: 1px solid #e7e7e7;
   padding: 20px;
+}
+
+.titulo-trama h5{
+  font-size: 25px;
 }
 
 .container-autor {
