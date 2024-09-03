@@ -298,6 +298,7 @@ section {
 
 .diversao {
   display: flex;
+  margin-top: 10px;
 }
 
 .diversao-grid span {
@@ -314,6 +315,9 @@ section {
 
 .titulo-diversao {
   font-size: 22px;
+}
+.titulo-diversao h6{
+  font-size: 25px;
 }
 
 .titulo-diversao span {
