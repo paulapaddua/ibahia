@@ -4,15 +4,36 @@
     padding: 0;
   }
 
+.container{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+
+}
   .container-header {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
-    padding: 0;
-    margin-top: 20px;
-    padding: 10px;
+    padding: 0 10px;
+    margin-top: 25px;
+  }
+  .logos {
+    display: none;
   }
 
+  form {
+    display: none;
+  }
+  .buscar img {
+    display: none;
+  }
+  .logos-respon{
+    display: flex;
+    gap: 20px;
+  }
+  .logo-ibahia-header{
+    display: flex;
+
+  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -58,25 +79,6 @@
     width: 12%;
     height: 12%;
     margin: 2%;
-  }
-
-  .buscar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
-  }
-
-  .buscar input {
-    display: none;
-  }
-
-  .buscar img {
-    display: block;
-    width: 60px;
-    height: 40px;
-    background-color: #ffff;
-    border: none;
   }
 
   main {
@@ -155,13 +157,13 @@
   .mania {
     font-size: 20px;
   }
-  .titulo-trama h5{
+  .titulo-trama h5 {
     font-size: 17px;
   }
-  .aspas{
+  .aspas {
     margin-top: 30px;
   }
-  .aspas h3{
+  .aspas h3 {
     font-size: 18px;
   }
   .principal-galeria {
@@ -254,6 +256,8 @@
   .diversao-respo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;
   }
 
   .carrossel-titulo {
