@@ -122,7 +122,7 @@ section {
   font-size: 20px;
 }
 
-.link ul li::before {
+.link ul li::marker {
   color: #e31837;
 }
 
