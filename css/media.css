@@ -4,40 +4,41 @@
     padding: 0;
   }
 
-.container{
-  position: relative;
-  z-index: 10;
-  background-color: white;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-
-
-}
+  /*Estilização do Header*/
+  .container {
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
   .container-header {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     margin-top: 25px;
   }
+  .buscar {
+    display: none;
+  }
+
+  .logo-ibahia-header {
+    display: flex;
+  }
+
   .logos {
     display: none;
+  }
+
+  .logos-respon {
+    display: flex;
+    gap: 20px;
   }
 
   form {
     display: none;
   }
-  
-  .buscar {
-    display: none;
-  }
-  .logos-respon{
-    display: flex;
-    gap: 20px;
-  }
-  .logo-ibahia-header{
-    display: flex;
 
-  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -47,26 +48,7 @@
     white-space: nowrap;
   }
 
-  .logos {
-    display: none;
-  }
-
-  .novela {
-    padding: 0 1px;
-    font-size: 30px;
-    margin-top: 10px;
-  }
-
-  .titulo {
-    margin-top: -60px;
-  }
-  .titulo p {
-    font-size: 18px;
-  }
-  .titulo h1 {
-    font-size: 30px;
-  }
-  .faixa{
+  .faixa {
     margin-top: -10px;
   }
   .faixa1 {
@@ -78,6 +60,31 @@
     font-size: 28px;
   }
 
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    padding: 0 10px;
+  }
+
+  .titulo {
+    margin-top: -60px;
+  }
+  .titulo p {
+    font-size: 18px;
+  }
+  .titulo h1 {
+    font-size: 30px;
+  }
+
+  .novela {
+    padding: 0 1px;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
   .play p {
     margin-top: 11px;
     font-size: 12px;
@@ -86,15 +93,6 @@
     width: 12%;
     height: 12%;
     margin: 2%;
-  }
-
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  section {
-    padding: 0 10px;
   }
 
   .cinza {
