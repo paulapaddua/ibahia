@@ -5,8 +5,11 @@
   }
 
 .container{
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 
 
 }
@@ -23,7 +26,8 @@
   form {
     display: none;
   }
-  .buscar img {
+  
+  .buscar {
     display: none;
   }
   .logos-respon{
@@ -62,10 +66,13 @@
   .titulo h1 {
     font-size: 30px;
   }
-
+  .faixa{
+    margin-top: -10px;
+  }
   .faixa1 {
     display: flex;
     margin: 2px;
+    margin-top: 10px;
   }
   .faixa1 h2 {
     font-size: 28px;
