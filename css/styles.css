@@ -15,7 +15,8 @@
   display: flex;
   justify-content: center;
   padding: 100px;
-  margin: 0 40vh;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .cinza p {
@@ -27,19 +28,23 @@
   color: #e31837;
   font-size: 30px;
   font-weight: bold;
-  margin: 20px;
-  padding: 0 57vh;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
 }
 
 section {
-  margin-top: 60px;
-  padding: 0 60vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 700px;
+  gap: 24px;
 }
 
 .titulo {
   display: flex;
   flex-direction: column;
-  margin-top: -50px;
 }
 
 .titulo h1 {
@@ -51,12 +56,10 @@ section {
 .titulo p {
   font-size: 20px;
   color: #181818;
-  margin-top: 10px;
 }
 
 .figurinha {
   display: flex;
-  margin-top: 20px;
 }
 
 .figurinha p {
@@ -72,13 +75,12 @@ section {
 .ouca {
   display: flex;
   gap: 10px;
-  margin-top: 15px;
 }
 
 .play {
   display: flex;
   border: 1px solid #e31837;
-  padding: 2px 20px;
+  padding: 2px 0;
   border-radius: 40px;
   gap: 2px;
 }
@@ -131,8 +133,8 @@ section {
   display: flex;
   justify-content: center;
   padding: 100px;
-  margin: 0 80vh;
-  margin-top: 25px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .publicidade span {
@@ -173,25 +175,28 @@ section {
 }
 
 .titulo-mania {
-  margin-top: 60px;
-  padding: 0 60vh;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
 }
 
 .carrossel {
   background-color: #000;
-  height: 87vh;
+  height: 100%;
   width: 100%;
   border: 2px solid red;
 }
 
 .principal-galeria {
-  margin-top: 10px;
-  padding: 0 60vh;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .principal-galeria figcaption {
   color: #ffff;
-  margin-top: -20px;
   font-size: 10px;
   justify-content: center;
   display: flex;
@@ -206,11 +211,12 @@ section {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 19px;
 }
 
 .figures img {
   border-radius: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .carrossel-titulo {
@@ -223,7 +229,6 @@ section {
   height: 90px;
   width: 200px;
   justify-content: center;
-  margin-top: 19px;
 }
 
 .aspas {
@@ -253,10 +258,10 @@ section {
 }
 
 .titulo-trama {
-  margin-top: 15px;
   border-left: 4px solid #e31837;
   border-bottom: 1px solid #e7e7e7;
   padding: 20px;
+
 }
 
 .titulo-trama h5{
@@ -279,7 +284,6 @@ section {
 .text-autor span {
   color: #e31837;
   font-weight: bold;
-  margin-top: 10px;
   font-size: 12px;
 }
 
