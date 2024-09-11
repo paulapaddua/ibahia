@@ -7,7 +7,7 @@
 .paragrafo {
   font-size: 19px;
   color: #181818;
-  margin-top: 20px;
+
 }
 
 .cinza {
@@ -39,7 +39,7 @@ section {
   flex-direction: column;
   margin: 0 auto;
   max-width: 700px;
-  gap: 24px;
+  gap: 20px;
 }
 
 .titulo {
@@ -93,7 +93,6 @@ section {
 }
 
 .mania {
-  margin-top: 30px;
   font-size: 19px;
 }
 
@@ -112,11 +111,11 @@ section {
 }
 
 .veja {
-  margin-top: 20px;
+font-size: 20px;
 }
 
 .link {
-  margin-top: 20px;
+  margin: 0 auto;
 }
 
 .link a {
@@ -150,7 +149,6 @@ section {
 }
 
 .news-item {
-  width: calc(50% -10px);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -233,7 +231,6 @@ section {
 
 .aspas {
   display: flex;
-  margin-top: 15px;
   gap: 20px;
   font-size: 25px;
 }
@@ -250,11 +247,11 @@ section {
 }
 
 .direita {
-  left: 280px;
+  left: 270px;
 }
 
 .esquerda {
-  right: 490px;
+  right: 500px;
 }
 
 .titulo-trama {
@@ -271,7 +268,6 @@ section {
 .container-autor {
   display: flex;
   gap: 5px;
-  margin-top: 20px;
   border: 1px solid #e7e7e7;
   border-radius: 10px;
   padding: 5px;
@@ -297,23 +293,19 @@ section {
 .tags {
   display: flex;
   gap: 10px;
-  margin-top: 15px;
 }
 
 .diversao {
   display: flex;
-  margin-top: 10px;
 }
 
 .diversao-grid span {
   color: #e31837;
-  margin-top: 5px;
   font-weight: bold;
   font-size: 15px;
 }
 
 .diversao-grid p {
-  margin-top: 10px;
   color: #161616;
 }
 

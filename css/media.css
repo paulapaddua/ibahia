@@ -66,11 +66,12 @@
   }
 
   section {
-    padding: 0 10px;
+    padding: 10px;
+    gap: 20px;
   }
 
   .titulo {
-    margin-top: -60px;
+    font-size: 20px;
   }
   .titulo p {
     font-size: 18px;
@@ -80,14 +81,13 @@
   }
 
   .novela {
-    padding: 0 1px;
+    padding: 2px;
     font-size: 30px;
-    margin-top: 10px;
   }
 
   .play p {
-    margin-top: 11px;
     font-size: 12px;
+
   }
   .figurinha img {
     width: 12%;
@@ -115,17 +115,16 @@
   .publicidade {
     display: flex;
     margin: 0 13vh;
-    margin-top: 25px;
   }
 
   .paragrafo {
     font-size: 17px;
+    gap: 10px;
   }
 
   .carrossel {
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
     height: 100%;
     width: 100%;
   }
@@ -156,7 +155,7 @@
   }
 
   .titulo-mania {
-    padding: 0 10px;
+    padding: 10px;
   }
 
   .mania {
@@ -172,7 +171,7 @@
     font-size: 18px;
   }
   .principal-galeria {
-    padding: 0 10px;
+    padding: 10px;
   }
 
   .principal-galeria figcaption {
@@ -200,7 +199,6 @@
   .autor-redes {
     display: flex;
     gap: 5px;
-    margin-top: 15px;
   }
   .autor-redes img {
     width: 30px;
@@ -210,7 +208,6 @@
   .autor-redes p {
     font-size: 15px;
     color: #636363;
-    margin-top: 5px;
   }
   .diversao {
     display: flex;
@@ -226,16 +223,17 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 10px 20px;
+    padding: 10px;
     align-items: flex-start;
   }
 
   .logos-footer {
     margin: 15px 0;
+
+    
   }
 
   .list {
-    margin-top: 10px;
     width: 100%;
   }
 
@@ -250,7 +248,6 @@
     gap: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
   }
   .diversao-grid {
     width: calc(50% -10px);
@@ -262,7 +259,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -10px;
+    gap: 20px;
   }
 
   .carrossel-titulo {
@@ -289,17 +286,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0px;
     width: 90%;
   }
 
   .tituloF img {
     display: flex;
     width: 28px;
-  }
-
-  .titulo1 {
-    margin-top: 0px;
   }
 
   .copy {
