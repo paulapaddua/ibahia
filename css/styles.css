@@ -7,7 +7,6 @@
 .paragrafo {
   font-size: 19px;
   color: #181818;
-
 }
 
 .cinza {
@@ -26,12 +25,14 @@
 
 .novela {
   color: #e31837;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: bold;
   max-width: 700px;
   margin: 0 auto;
   text-align: left;
   width: 100%;
+  text-transform: uppercase;
+
 }
 
 section {
@@ -80,7 +81,7 @@ section {
 .play {
   display: flex;
   border: 1px solid #e31837;
-  padding: 2px 0;
+  padding: 5px 21px;
   border-radius: 40px;
   gap: 2px;
 }
@@ -111,7 +112,7 @@ section {
 }
 
 .veja {
-font-size: 20px;
+  font-size: 20px;
 }
 
 .link {
@@ -258,10 +259,9 @@ font-size: 20px;
   border-left: 4px solid #e31837;
   border-bottom: 1px solid #e7e7e7;
   padding: 20px;
-
 }
 
-.titulo-trama h5{
+.titulo-trama h5 {
   font-size: 25px;
 }
 
@@ -286,8 +286,8 @@ font-size: 20px;
 .text-autor p {
   font-size: 15px;
 }
-.autor-redes{
-    display: none;
+.autor-redes {
+  display: none;
 }
 
 .tags {
@@ -312,7 +312,7 @@ font-size: 20px;
 .titulo-diversao {
   font-size: 22px;
 }
-.titulo-diversao h6{
+.titulo-diversao h6 {
   font-size: 25px;
 }
 
