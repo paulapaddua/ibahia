@@ -1,4 +1,4 @@
-.container-footer {
+.ib-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,7 @@
   padding: 20px 0px;
 }
 
-.logos-footer {
+.social {
   display: flex;
   gap: 10px;
   margin-top: 20px;
@@ -29,7 +29,7 @@ footer li {
   margin-top: 10px;
 }
 
-.title {
+.title-footer {
   display: none;
 }
 

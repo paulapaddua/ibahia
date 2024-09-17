@@ -1,4 +1,4 @@
-.container-header {
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   border-bottom-left-radius: 10px;
 }
 
-.buscar {
+.header-search {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,14 +19,14 @@
   gap: 20px;
 }
 
-.logos {
+.header-social-icons {
   display: flex;
   gap: 10px;
 }
 
-  .logos-respon{
-    display: none;
-  }
+.header-icons-responsive {
+  display: none;
+}
 
 form {
   background-color: #f1f1f1;
@@ -69,7 +69,7 @@ nav a {
   text-decoration: none;
 }
 
-.faixa {
+.breadcrumb {
   background-color: #e31837;
   padding: 10px;
   margin: 20px 0;
@@ -77,15 +77,14 @@ nav a {
   border-bottom-right-radius: 15px;
 }
 
-.faixa1 {
+.breadcrumb-item {
   display: flex;
   gap: 10px;
   margin-left: 110px;
 }
 
-.faixa h1 {
+.breadcrumb-item h1 {
   color: #fff;
   font-size: 42px;
   font-family: "Reddit Sans";
 }
-  

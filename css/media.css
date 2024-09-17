@@ -5,20 +5,20 @@
   }
 
   /*Estilização do Header*/
-  .container {
+  .header-container {
     position: relative;
     z-index: 10;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-  .container-header {
+  .header-top {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     margin-top: 25px;
   }
-  .buscar {
+  .header-search {
     display: none;
   }
 
@@ -26,11 +26,11 @@
     display: flex;
   }
 
-  .logos {
+  .header-social-icons {
     display: none;
   }
 
-  .logos-respon {
+  .header-icons-responsive {
     display: flex;
     gap: 20px;
   }
@@ -48,15 +48,15 @@
     white-space: nowrap;
   }
 
-  .faixa {
+  .breadcrumb {
     margin-top: -10px;
   }
-  .faixa1 {
+  .breadcrumb-item {
     display: flex;
     margin: 2px;
     margin-top: 10px;
   }
-  .faixa1 h2 {
+  .breadcrumb-item h2 {
     font-size: 22px;
   }
 
@@ -69,18 +69,21 @@
     padding: 10px;
     gap: 20px;
   }
-
-  .titulo {
+  .ad-banner-advertising {
+    display: none;
+  }
+  
+  .article-header {
     font-size: 20px;
   }
-  .titulo p {
+  .article-header p {
     font-size: 18px;
   }
-  .titulo h1 {
+  .article-header h1 {
     font-size: 30px;
   }
 
-  .novela {
+  .Hat-top {
     padding: 2px;
     font-size: 30px;
   }
@@ -89,21 +92,18 @@
     font-size: 12px;
 
   }
-  .figurinha img {
+  .author-info img {
     width: 12%;
     height: 12%;
     margin: 2%;
   }
 
-  .cinza {
-    display: none;
-  }
 
-  .nicolas-img {
+  .actor-image {
     width: 100%;
     height: 100%;
   }
-  .nicolas figcaption {
+  .image-caption figcaption {
     font-size: 10px;
   }
 
@@ -112,24 +112,24 @@
     flex-direction: column;
   }
 
-  .publicidade {
+  .ad-banner-square {
     display: flex;
     margin: 0 13vh;
   }
 
-  .paragrafo {
+  .paragraph {
     font-size: 17px;
     gap: 10px;
   }
 
-  .carrossel {
+  .carousel {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
   }
 
-  .carrossel-img {
+  .carousel-img {
     display: flex;
     justify-content: center;
     overflow-x: auto;
@@ -146,11 +146,11 @@
     width: 100%;
   }
 
-  .direita {
+  .carousel-arrow-right {
     display: none;
   }
 
-  .esquerda {
+  .carousel-arrow-left {
     display: none;
   }
 

@@ -4,13 +4,13 @@
   font-family: "Reddit Sans";
   box-sizing: border-box;
 }
-.paragrafo {
+.paragraph {
   font-size: 19px;
   color: #181818;
   gap: 16px;
 }
 
-.cinza {
+.ad-banner-advertising {
   background-color: #ebebeb;
   display: flex;
   justify-content: center;
@@ -19,12 +19,12 @@
   margin: 0 auto;
 }
 
-.cinza p {
+.ad-banner-advertising p {
   font-size: 10px;
   color: #161616;
 }
 
-.novela {
+.Hat-top {
   color: #e31837;
   font-size: 18px;
   font-weight: bold;
@@ -44,13 +44,13 @@ section {
   gap: 20px;
 }
 
-.titulo {
+.article-header {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.titulo h1 {
+.article-header h1 {
   font-size: 40px;
   color: #000;
   font-weight: bold;
@@ -61,26 +61,26 @@ section {
   color: #181818;
 }
 
-.figurinha {
+.author-info {
   display: flex;
 }
 
-.figurinha p {
+.author-info p {
   margin: 12px;
   color: #181818;
   font-size: 15px;
 }
 
-.figurinha span {
+.author-info span {
   font-weight: bold;
 }
 
-.ouca {
+.actions {
   display: flex;
   gap: 10px;
 }
 
-.play {
+.play-button {
   display: flex;
   border: 1px solid #e31837;
   padding: 5px 21px;
@@ -89,49 +89,52 @@ section {
   background-color: white;
 }
 
-.play p {
+.play-button p {
   color: #161616;
   font-weight: bold;
   font-size: 15px;
   margin: 10px;
 }
 
-.mania {
+.article-content {
   font-size: 19px;
 }
 
-.mania a {
+.article-content a {
   color: #e31837;
   font-weight: bold;
 }
 
-.nicolas {
+.image-caption {
   margin-top: 20px;
 }
 
-.nicolas figcaption {
+.image-caption figcaption {
   font-size: 15px;
   color: #181818;
 }
-
-.veja {
+.actor-image{
+  width: 100%;
+  height: 100%;
+}
+.related-articles {
   font-size: 20px;
 }
 
-.link {
+.related-links {
   margin: 0 auto;
 }
 
-.link a {
+.related-links a {
   color: #181818;
   font-size: 20px;
 }
 
-.link ul li::marker {
+.related-links ul li::marker {
   color: #e31837;
 }
 
-.publicidade {
+.ad-banner-square {
   background-color: #ebebeb;
   display: flex;
   justify-content: center;
@@ -140,7 +143,7 @@ section {
   margin: 0 auto;
 }
 
-.publicidade span {
+.ad-banner-square span {
   font-size: 10px;
 }
 
@@ -183,7 +186,7 @@ section {
   aspect-ratio: 1/1;
 }
 
-.titulo-mania {
+.gallery-title {
   font-size: 20px;
   font-weight: bold;
   max-width: 700px;
@@ -192,43 +195,43 @@ section {
   width: 100%;
 }
 
-.carrossel {
+.carousel {
   background-color: #000;
   height: 100%;
   width: 100%;
   border: 2px solid red;
 }
 
-.principal-galeria {
+.carousel-main {
   max-width: 700px;
   margin: 0 auto;
 }
 
-.principal-galeria figcaption {
+.carousel-main figcaption {
   color: #ffff;
   font-size: 10px;
   justify-content: center;
   display: flex;
 }
 
-.carrossel-img {
+.carousel-img {
   display: flex;
   justify-content: center;
 }
 
-.figures {
+.carousel-figures {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-.figures img {
+.carousel-figures img {
   border-radius: 10px;
   width: 100px;
   height: 100px;
 }
 
-.carrossel-titulo {
+.carousel-view-all {
   background-color: #000;
   display: flex;
   align-items: center;
@@ -240,28 +243,28 @@ section {
   justify-content: center;
 }
 
-.aspas {
+.quote-icon {
   display: flex;
   gap: 20px;
   font-size: 25px;
 }
 
-.aspas img {
+.quote-icon img {
   margin-top: -50px;
 }
 
-.direita,
-.esquerda {
+.carousel-arrow-right,
+.carousel-arrow-left {
   position: relative;
   bottom: 300px;
   cursor: pointer;
 }
 
-.direita {
+.carousel-arrow-right {
   left: 270px;
 }
 
-.esquerda {
+.carousel-arrow-left {
   right: 500px;
 }
 
@@ -300,32 +303,32 @@ section {
   display: none;
 }
 
-.tags {
+.ib-tags {
   display: flex;
   gap: 10px;
 }
 
-.diversao {
+.entertainment-list {
   display: flex;
 }
 
-.diversao-grid span {
+.entertainment-item span {
   color: #e31837;
   font-weight: bold;
   font-size: 15px;
 }
 
-.diversao-grid p {
+.entertainment-item p {
   color: #161616;
 }
 
-.titulo-diversao {
+.entertainment-title {
   font-size: 22px;
 }
-.titulo-diversao h6 {
+.entertainment-title h6 {
   font-size: 25px;
 }
 
-.titulo-diversao span {
+.entertainment-title span {
   color: #e31837;
 }
