@@ -278,7 +278,7 @@ section {
   font-size: 25px;
 }
 
-.container-autor {
+.ib-autor {
   display: flex;
   gap: 5px;
   border: 1px solid #e7e7e7;
@@ -286,20 +286,20 @@ section {
   padding: 5px;
 }
 
-.text-autor {
+.ib-text-autor {
   margin-top: 10px;
 }
 
-.text-autor span {
+.ib-text-autor span {
   color: #e31837;
   font-weight: bold;
   font-size: 12px;
 }
 
-.text-autor p {
+.ib-text-autor p {
   font-size: 15px;
 }
-.autor-redes {
+.ib-autor-redes {
   display: none;
 }
 

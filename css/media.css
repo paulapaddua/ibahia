@@ -142,7 +142,7 @@
     display: none;
   }
 
-  .galeria-img {
+  .carousel-main-image {
     width: 100%;
   }
 
@@ -154,7 +154,7 @@
     display: none;
   }
 
-  .titulo-mania {
+  .gallery-title {
     padding: 10px;
   }
 
@@ -164,48 +164,48 @@
   .titulo-trama h5 {
     font-size: 17px;
   }
-  .aspas {
+  .quote-icon {
     margin-top: 30px;
   }
-  .aspas h3 {
+  .quote-icon h3 {
     font-size: 18px;
   }
-  .principal-galeria {
+  .carousel-main {
     padding: 10px;
   }
 
-  .principal-galeria figcaption {
+  .carousel-main figcaption {
     margin-top: 0;
     font-size: 10px;
   }
 
-  .container-autor {
+  .ib-autor {
     display: flex;
   }
 
-  .container-autor img {
+  .ib-autor img {
     width: 70px;
     height: 70px;
   }
 
-  .text-autor h5 {
+  .ib-text-autor h5 {
     font-size: 15px;
   }
 
-  .text-autor span {
+  .ib-text-autor span {
     display: none;
   }
 
-  .autor-redes {
+  .ib-autor-redes {
     display: flex;
     gap: 5px;
   }
-  .autor-redes img {
+  .ib-autor-redes img {
     width: 30px;
     height: 30px;
   }
 
-  .autor-redes p {
+  .ib-autor-redes p {
     font-size: 15px;
     color: #636363;
   }
@@ -214,11 +214,11 @@
     flex-direction: column;
   }
 
-  .logo-ibahia {
+  .lazy {
     display: none;
   }
 
-  .container-footer {
+  .ib-footer {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -243,26 +243,26 @@
     font-family: "Reddit Sans";
   }
 
-  .diversao {
+  .entertainment-list {
     display: grid;
     gap: 10px;
     margin-left: auto;
     margin-right: auto;
   }
-  .diversao-grid {
+  .entertainment-item {
     width: calc(50% -10px);
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  .diversao-respo {
+  .entertainment-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
   }
 
-  .carrossel-titulo {
+  .carousel-view-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,10 +270,10 @@
     background-color: #000;
     font-size: 10px;
   }
-  .diversao img {
+  .entertainment-list img {
     width: 100%;
   }
-  .figures img {
+  .carousel-main img {
     width: 70px;
   }
 
