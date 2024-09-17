@@ -63,10 +63,13 @@ nav ul li {
   font-family: "Reddit Sans";
   font-size: 16px;
   color: #181818;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 nav a {
   text-decoration: none;
+  color:#181818;
 }
 
 .breadcrumb {
